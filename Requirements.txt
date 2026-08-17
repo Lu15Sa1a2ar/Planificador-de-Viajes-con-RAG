@@ -1,0 +1,20 @@
+# Interfaz
+streamlit
+
+# Vector DB para el RAG
+chromadb
+
+# Manejo de datos (lugares, CSV/JSON de los portales de datos abiertos)
+pandas
+
+# Embeddings multilingües
+sentence-transformers
+
+# LLM (Qwen2.5) vía Hugging Face
+transformers
+torch
+accelerate
+
+# --- Opcionales: descomentar según lo que uses en tu notebook ---
+# bitsandbytes      # si corriste Qwen2.5 cuantizado para que entre en la GPU gratuita de Colab
+# pyngrok           # si expusiste el Streamlit desde Colab con un túnel público
